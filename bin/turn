@@ -1,2 +1,9 @@
 #!/usr/bin/env ruby
-puts "  
+puts "Please enter 1-9:"
+gets input
+index = input_to_index(input)
+loop
+  if valid_move?(board, index) == true
+    break
+  else
+    gets input
