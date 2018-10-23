@@ -1,5 +1,7 @@
 def input_to_index(input)
-  
+  if input.between(1,9)
+    input -= 1
+  end
 end
 
 def display_board(board)
