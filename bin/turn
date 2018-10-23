@@ -7,3 +7,5 @@ loop
     break
   else
     gets input
+  end
+end
