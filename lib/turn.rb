@@ -45,4 +45,5 @@ def turn(board)
     else
       gets input
     end
+  end
 end
